@@ -20,7 +20,7 @@ public static class EnumHelper
     /// </remarks>
     public static TEnum ToEnum<TEnum>(this string? value, TEnum defaultValue) where TEnum : struct
     {
-        if (string.IsNullOrEmpty(value))
+        if (string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value))
             return defaultValue;
 
         return Enum.TryParse<TEnum>(value, true, out TEnum result) ? result : defaultValue;
