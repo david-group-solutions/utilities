@@ -4,6 +4,9 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Folder Name="/samples/">
+    <Project Path="samples/DavidGroup.Core.Utilities.Samples/DavidGroup.Core.Utilities.Samples.csproj" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path="Directory.Build.props" />
     <File Path="Directory.Version.props" />
@@ -14,6 +17,6 @@
     <Project Path="src/DavidGroup.Core.Utilities/DavidGroup.Core.Utilities.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/DavidGroup.Core.Utilities/DavidGroup.Core.UtilitiesTests.csproj" />
+    <Project Path="tests/DavidGroup.Core.Utilities.Tests/DavidGroup.Core.Utilities.Tests.csproj" />
   </Folder>
 </Solution>
