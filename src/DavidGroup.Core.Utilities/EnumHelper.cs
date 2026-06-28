@@ -18,7 +18,7 @@ public static class EnumHelper
     /// <remarks>
     /// The parsing is case-insensitive. If <paramref name="value"/> is null or empty, the <paramref name="defaultValue"/> is returned.
     /// </remarks>
-    public static TEnum ToEnum<TEnum>(this string value, TEnum defaultValue) where TEnum : struct
+    public static TEnum ToEnum<TEnum>(this string? value, TEnum defaultValue) where TEnum : struct
     {
         if (string.IsNullOrEmpty(value))
             return defaultValue;
