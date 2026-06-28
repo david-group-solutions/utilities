@@ -18,10 +18,17 @@ public static class CommonUtilities
     /// </remarks>
     public static int CalculateAge(this DateTime birthDate, DateTime currentDate = default)
     {
-        if (currentDate == default) currentDate = DateTime.UtcNow;
+        if (currentDate == default)
+            currentDate = DateTime.UtcNow;
+
+        if (currentDate == birthDate)
+            return 0;
 
         int age = currentDate.Year - birthDate.Year;
-        if (birthDate.Date > currentDate.AddYears(-age)) age--;
+
+        if (birthDate.Date >= currentDate.AddYears(-age))
+            age--;
+
         return age;
     }
 
