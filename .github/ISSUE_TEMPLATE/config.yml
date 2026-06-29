@@ -7,6 +7,3 @@ contact_links:
   - name: 💬 Community Discussions
     url: https://github.com/david-group-solutions/utilities/discussions
     about: Ask questions, share ideas, and connect with the community.
-  - name: 🔒 Security Policy
-    url: https://github.com/david-group-solutions/utilities/blob/main/SECURITY.md
-    about: For critical security vulnerabilities, please follow our responsible disclosure policy.
