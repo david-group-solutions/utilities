@@ -58,7 +58,7 @@ jobs:
         run: |
           prefix=$(xmllint --xpath "string(//Project/PropertyGroup/VersionPrefix)" Directory.Version.props)
           branch="${{ github.head_ref || github.ref_name }}"
-          revision=$(printf "%05d" "${{ github.run_number }}")
+          revision="${{ github.run_number }}"
 
           short_branch="${branch:0:10}"
           short_branch=$(echo "$short_branch" | sed 's/[^a-zA-Z0-9-]//g')
