@@ -1,6 +1,6 @@
 # DavidGroup.Core.Utilities
 
-#### [![Release](https://github.com/david-group-solutions/utilities/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/david-group-solutions/utilities/actions/workflows/release.yml) [![Nuget](https://img.shields.io/nuget/vpre/DavidGroup.Core.Utilities)](https://www.nuget.org/packages/DavidGroup.Core.Utilities/)
+#### [![Release](https://github.com/david-group-solutions/utilities/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/david-group-solutions/utilities/actions/workflows/release.yml) [![Nuget](https://img.shields.io/nuget/v/DavidGroup.Core.Utilities)](https://www.nuget.org/packages/DavidGroup.Core.Utilities/)
 
 A productivity library that accelerates .NET project development by providing ready-to-use helpers for
 common application needs.
