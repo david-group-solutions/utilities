@@ -37,6 +37,8 @@ change-template: |
     
   
 template: |
+  # 🎉 DavidGroup.Core.Utilities $RESOLVED_VERSION
+
   ## Changes
 
   $CHANGES
