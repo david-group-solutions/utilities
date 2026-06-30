@@ -37,6 +37,10 @@ change-template: |
     
   
 template: |
+  # 🎉 DavidGroup.Core.Utilities $RESOLVED_VERSION
+
+  This package provides a collection of reusable utility components intended to simplify common development tasks while maintaining high performance, strong typing, and modern .NET practices.
+
   ## Changes
 
   $CHANGES
