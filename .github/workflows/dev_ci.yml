@@ -63,7 +63,7 @@ jobs:
           short_branch="${branch:0:10}"
           short_branch=$(echo "$short_branch" | sed 's/[^a-zA-Z0-9-]//g')
 
-          suffix="${short_branch}-${revision}"
+          suffix="${short_branch}.${revision}"
           echo "suffix=$suffix"           >> "$GITHUB_OUTPUT"
 
           echo "Package version prefix is $prefix"
