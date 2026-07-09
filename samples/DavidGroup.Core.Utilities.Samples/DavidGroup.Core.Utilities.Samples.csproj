@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\DavidGroup.Core.Utilities\DavidGroup.Core.Utilities.csproj"/>
+    <PackageReference Include="DavidGroup.Core.Utilities" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
